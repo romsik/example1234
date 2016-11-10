@@ -8,6 +8,6 @@ router.get('/', function(req, res, next) {
 router.get('/rom', function(req, res, next) {
  //res.render("siksik");
 
- res.send({a:"hi"});
+ res.send({a:"hi"});;
 });
 module.exports = router;
